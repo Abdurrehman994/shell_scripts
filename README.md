@@ -31,4 +31,8 @@ printing usage values by removing the '%' symbol
 do
  usage=$(echo $output | awk '{print $1}' | cut -d'%' -f1)
  echo $usage
-done```
+done
+cronjob command 
+shell script is running complete 12th hour result will appending in check_disk.txt file
+* 12 * * * bash /home/ubuntu/check_disk.sh >> /home/ubuntu/check_disk.txt
+```
