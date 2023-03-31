@@ -1,4 +1,4 @@
-# shell_scripts
+```# shell_scripts
 ---------backup_file---------------
 defining bash folder
 #!/bin/bash  
@@ -31,4 +31,4 @@ printing usage values by removing the '%' symbol
 do
  usage=$(echo $output | awk '{print $1}' | cut -d'%' -f1)
  echo $usage
-done
+done```
